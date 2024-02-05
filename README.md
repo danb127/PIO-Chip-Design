@@ -15,15 +15,37 @@ Welcome to the frontier of digital design, where the Serial Data Processing Modu
 
 ### 🗂 Repository Structure:
 - **src/**: Home to the VHDL source files that form the backbone of our project.
-- **doc/**: Detailed documentation and reports that narrate the project's journey.
-- **sim/**: Simulation files and testbenches for validating our design's integrity.
+- **doc/**: Detailed documentation reports, simulation files, and test benches that narrate the project's journey.
 - **project/**: The Vivado project file (.xpr) that orchestrates our design environment.
 
 ### 📘 Documentation:
 Dive deep into the essence of our project with comprehensive documentation. From design specifications to implementation details, everything you need to grasp the project's scope and depth is here.
 
-### 🔧 Setup and Execution:
-Follow the step-by-step guide in the README to breathe life into the project. From simulation to running on actual FPGA hardware, we've got you covered.
+### 🔧 Setup and Execution Guide:
+
+1. **Clone the Repository**:
+   - `git clone [repository URL]`. Replace `[repository URL]` with the actual URL of this GitHub repository.
+
+2. **Open the Project in Vivado**:
+   - Launch Vivado and select `Open Project`. Navigate to the cloned repository folder and open the `.xpr` file located in the `project/` directory.
+
+3. **Run Simulation**:
+   - In Vivado, find the Simulation panel. Right-click on your testbench file and select `Run Simulation` > `Run Behavioral Simulation`.
+
+4. **Synthesize Design**:
+   - Move to the Flow Navigator and click on `Synthesize`. After synthesis completes, review the synthesis report for any warnings or errors.
+
+5. **Implement Design**:
+   - Next, click on `Implement Design` in the Flow Navigator. Once implementation is complete, review the implementation report.
+
+6. **Generate Bitstream**:
+   - Finally, select `Generate Bitstream`. After the bitstream is generated, you can program your FPGA board with the newly created bitstream file.
+
+7. **Programming the FPGA**:
+   - Connect your FPGA board to your computer. In Vivado, go to `Open Hardware Manager` > `Open target` > `Auto Connect`. Right-click on the device and select `Program device` to browse and select your bitstream file.
+
+### 📝 Note:
+This guide assumes a basic familiarity with Vivado and FPGA development. For detailed instructions on specific steps or troubleshooting, refer to the official Xilinx documentation or the Vivado help guides.
 
 ### 🤝 Contributing:
 This project thrives on collaboration and innovation. Whether you're here to offer feedback, contribute code, or share insights, your input is invaluable.
