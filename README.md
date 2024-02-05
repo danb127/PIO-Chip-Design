@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt="Digital Design Mastery" />
 </p>
 
-<h1 align="center">Serial Data Processing Module: A VHDL Odyssey</h1>
+<h1 align="center">Parallel Input/Output Chip</h1>
 
 <div align="center">
   <i>Where engineering meets innovation – Explore the synthesis of design and technology.</i>
