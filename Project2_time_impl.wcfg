@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Project2_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="Project2" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,353.074 ns"></ZoomEndTime>
+      <Cursor1Time time="1,900.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/Project2/CE" type="logic">
+      <obj_property name="ElementShortName">CE</obj_property>
+      <obj_property name="ObjectShortName">CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/A0" type="logic">
+      <obj_property name="ElementShortName">A0</obj_property>
+      <obj_property name="ObjectShortName">A0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/ACK" type="logic">
+      <obj_property name="ElementShortName">ACK</obj_property>
+      <obj_property name="ObjectShortName">ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/INTR" type="logic">
+      <obj_property name="ElementShortName">INTR</obj_property>
+      <obj_property name="ObjectShortName">INTR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/OBF" type="logic">
+      <obj_property name="ElementShortName">OBF</obj_property>
+      <obj_property name="ObjectShortName">OBF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/D" type="array">
+      <obj_property name="ElementShortName">D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/P" type="array">
+      <obj_property name="ElementShortName">P[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/RD" type="logic">
+      <obj_property name="ElementShortName">RD</obj_property>
+      <obj_property name="ObjectShortName">RD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/WR" type="logic">
+      <obj_property name="ElementShortName">WR</obj_property>
+      <obj_property name="ObjectShortName">WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/OE" type="logic">
+      <obj_property name="ElementShortName">OE</obj_property>
+      <obj_property name="ObjectShortName">OE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/A0_IBUF" type="logic">
+      <obj_property name="ElementShortName">A0_IBUF</obj_property>
+      <obj_property name="ObjectShortName">A0_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/ACK_IBUF" type="logic">
+      <obj_property name="ElementShortName">ACK_IBUF</obj_property>
+      <obj_property name="ObjectShortName">ACK_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/\Control_Reg[1]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\Control_Reg[1]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\Control_Reg[1]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/\Control_Reg_reg_n_0_[0] " type="logic">
+      <obj_property name="ElementShortName">\Control_Reg_reg_n_0_[0] </obj_property>
+      <obj_property name="ObjectShortName">\Control_Reg_reg_n_0_[0] </obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/D_IBUF" type="array">
+      <obj_property name="ElementShortName">D_IBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_IBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/\D_IOBUF[7]_inst_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\D_IOBUF[7]_inst_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\D_IOBUF[7]_inst_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/\D_IOBUF[7]_inst_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\D_IOBUF[7]_inst_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\D_IOBUF[7]_inst_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/D_OBUF" type="array">
+      <obj_property name="ElementShortName">D_OBUF[2:0]</obj_property>
+      <obj_property name="ObjectShortName">D_OBUF[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/\D_TRI[0] " type="logic">
+      <obj_property name="ElementShortName">\D_TRI[0] </obj_property>
+      <obj_property name="ObjectShortName">\D_TRI[0] </obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/\D_reg[2]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\D_reg[2]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\D_reg[2]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/INTR_OBUF" type="logic">
+      <obj_property name="ElementShortName">INTR_OBUF</obj_property>
+      <obj_property name="ObjectShortName">INTR_OBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/OBF_OBUF" type="logic">
+      <obj_property name="ElementShortName">OBF_OBUF</obj_property>
+      <obj_property name="ObjectShortName">OBF_OBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/OE_OBUF" type="logic">
+      <obj_property name="ElementShortName">OE_OBUF</obj_property>
+      <obj_property name="ObjectShortName">OE_OBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/P_OBUF" type="array">
+      <obj_property name="ElementShortName">P_OBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P_OBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/\P_TRI[0] " type="logic">
+      <obj_property name="ElementShortName">\P_TRI[0] </obj_property>
+      <obj_property name="ObjectShortName">\P_TRI[0] </obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/RD_IBUF" type="logic">
+      <obj_property name="ElementShortName">RD_IBUF</obj_property>
+      <obj_property name="ObjectShortName">RD_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/RESET_IBUF" type="logic">
+      <obj_property name="ElementShortName">RESET_IBUF</obj_property>
+      <obj_property name="ObjectShortName">RESET_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/WR_IBUF" type="logic">
+      <obj_property name="ElementShortName">WR_IBUF</obj_property>
+      <obj_property name="ObjectShortName">WR_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/WR_IBUF_BUFG" type="logic">
+      <obj_property name="ElementShortName">WR_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">WR_IBUF_BUFG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/Y1" type="logic">
+      <obj_property name="ElementShortName">Y1</obj_property>
+      <obj_property name="ObjectShortName">Y1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/Y1_OBUF" type="logic">
+      <obj_property name="ElementShortName">Y1_OBUF</obj_property>
+      <obj_property name="ObjectShortName">Y1_OBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/Y1_OBUF_inst_i_2_n_0" type="logic">
+      <obj_property name="ElementShortName">Y1_OBUF_inst_i_2_n_0</obj_property>
+      <obj_property name="ObjectShortName">Y1_OBUF_inst_i_2_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/Y2" type="logic">
+      <obj_property name="ElementShortName">Y2</obj_property>
+      <obj_property name="ObjectShortName">Y2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/Y2_OBUF" type="logic">
+      <obj_property name="ElementShortName">Y2_OBUF</obj_property>
+      <obj_property name="ObjectShortName">Y2_OBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/p_0_in" type="logic">
+      <obj_property name="ElementShortName">p_0_in</obj_property>
+      <obj_property name="ObjectShortName">p_0_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Project2/p_0_in__0" type="logic">
+      <obj_property name="ElementShortName">p_0_in__0</obj_property>
+      <obj_property name="ObjectShortName">p_0_in__0</obj_property>
+   </wvobject>
+</wave_config>
